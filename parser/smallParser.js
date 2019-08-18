@@ -81,9 +81,3 @@ function parseTypeB(str) {
         return {}
     }
 }
-
-
-// 문장 맨 끝 공백 해결 코드
-String.prototype.rmspace = function () {
-    return this.toString().replace(/^\s*/, "").replace(/\s*$/, "");
-}
